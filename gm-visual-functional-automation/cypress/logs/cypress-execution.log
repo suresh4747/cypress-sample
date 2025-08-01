@@ -1,0 +1,23 @@
+2024-11-04T15:12:12.354Z - Test run started
+2024-11-04T15:12:12.357Z - Spec : [object Object]
+2024-11-04T15:12:12.358Z - browser : [object Object]
+2024-11-04T15:12:18.327Z - Running spec: HeroComponent.feature
+2024-11-04T15:12:42.477Z - Running spec: HeroComponent.feature
+2024-11-04T15:13:24.384Z - Completed spec: HeroComponent.feature
+***********************************   TEST INFO ***********************************
+2024-11-04T15:13:24.419Z - Browser name : chrome
+2024-11-04T15:13:24.421Z - Browser version : 130.0.6723.92
+2024-11-04T15:13:24.423Z - Cypress version : 13.14.2
+2024-11-04T15:13:24.425Z - OS name : win32
+2024-11-04T15:13:24.427Z - OS version : 10.0.22631
+2024-11-04T15:13:24.429Z - Run : [object Object]
+2024-11-04T15:13:24.430Z - Test started at : 2024-11-04T15:12:37.315Z
+2024-11-04T15:13:24.432Z - Test ended at : 2024-11-04T15:13:24.340Z
+2024-11-04T15:13:24.433Z - Total duration : 47025
+2024-11-04T15:13:24.435Z - Total failed : 0
+2024-11-04T15:13:24.437Z - Total passed : 1
+2024-11-04T15:13:24.438Z - Total pending : 0
+2024-11-04T15:13:24.440Z - Total skipped : 0
+2024-11-04T15:13:24.442Z - Total Suites : 1
+2024-11-04T15:13:24.444Z - Total tests : 1
+***********************************   TEST END ***********************************

@@ -1,0 +1,21 @@
+version: 2
+snapshot:
+  widths:
+    - 430
+    - 834
+    - 1768
+  minHeight: 1024
+  enableJavaScript: true
+  cliEnableJavaScript: true
+  disableShadowDOM: false
+  percyCSS: |
+    .hero-img { display: block !important; }
+    img, video { opacity: 1 !important; }
+discovery:
+  allowedHostnames: []
+  disallowedHostnames: []
+  networkIdleTimeout: 699
+upload:
+  files: "**/*.{png,jpg,jpeg,webp}"
+  ignore: ""
+  stripExtensions: false

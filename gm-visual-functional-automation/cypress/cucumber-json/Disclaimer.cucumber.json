@@ -1,0 +1,267 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "End to end chevrolet brand page components validation",
+    "line": 1,
+    "id": "end-to-end-chevrolet-brand-page-components-validation",
+    "tags": [],
+    "uri": "Disclaimer.feature",
+    "elements": [
+      {
+        "id": "end-to-end-chevrolet-brand-page-components-validation;disclaimer-component-validation-with-no-scroll-bar",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Disclaimer component validation with no scroll bar",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I go to the chevrolet brand page",
+            "result": {
+              "status": "passed",
+              "duration": 605000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I see that section heading component in the page",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I click on the title in the page",
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see the disclaimer is appearing in the page with close button",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click on close button disclaimer popup is closed",
+            "result": {
+              "status": "passed",
+              "duration": 1059000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-chevrolet-brand-page-components-validation;disclaimer-component-validation-with-scroll-bar",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Disclaimer component validation with scroll bar",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I go to the chevrolet brand page",
+            "result": {
+              "status": "passed",
+              "duration": 634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I see that section heading component in the page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click on the title in the page",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I see the disclaimer is appearing in the page with close button",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I see the scrollbar is apearing below close button and scroll down to the bottom",
+            "result": {
+              "status": "passed",
+              "duration": 380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on close button disclaimer popup is closed",
+            "result": {
+              "status": "passed",
+              "duration": 1117000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-chevrolet-brand-page-components-validation;disclaimer-component-validation-of-the-link-present-in-description",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Disclaimer component validation of the link present in description",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I go to the chevrolet brand page",
+            "result": {
+              "status": "passed",
+              "duration": 668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I see that section heading component in the page",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I click on the title in the page",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I see the disclaimer is appearing in the page with close button",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I see the text present in the description is highlighted and clickable",
+            "result": {
+              "status": "passed",
+              "duration": 1402000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-chevrolet-brand-page-components-validation;disclaimer-component-validation-of-the-on-hovering-the-mouse-the-link-present-in-description",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Disclaimer component validation of the on hovering the mouse the link present in description",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "I go to the chevrolet brand page",
+            "result": {
+              "status": "passed",
+              "duration": 826000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I see that section heading component in the page",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I click on the title in the page",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I see the disclaimer is appearing in the page with close button",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "on hovering over text I see the link is present in the description text",
+            "result": {
+              "status": "passed",
+              "duration": 1210000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

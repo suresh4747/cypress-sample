@@ -1,0 +1,107 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "End to end chevrolet brand page components validation",
+    "line": 1,
+    "id": "end-to-end-chevrolet-brand-page-components-validation",
+    "tags": [],
+    "uri": "SectionHeading.feature",
+    "elements": [
+      {
+        "id": "end-to-end-chevrolet-brand-page-components-validation;section-heading-component-validation",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Section Heading component validation",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open chevrolet brand page",
+            "result": {
+              "status": "passed",
+              "duration": 699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I see section heading component in the page",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "section heading component contains title, description and CTA button",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-chevrolet-brand-page-components-validation;button-component-validation",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Button component validation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open chevrolet brand page",
+            "result": {
+              "status": "passed",
+              "duration": 736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I see section heading component in the page",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "section heading component contains title, description and CTA button",
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on the CTA button",
+            "result": {
+              "status": "passed",
+              "duration": 824000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
