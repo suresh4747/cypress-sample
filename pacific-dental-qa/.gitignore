@@ -1,0 +1,10 @@
+
+reports/
+node_modules/
+
+cypress/.DS_Store
+cypress/e2e/.DS_Store
+cypress/cucumber-json/homePage.cucumber.json
+cypress/support/.DS_Store
+package-lock.json
+reports.zip

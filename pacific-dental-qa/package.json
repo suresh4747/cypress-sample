@@ -1,0 +1,62 @@
+{
+  "name": "pacificdentalservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec **/**/*.feature --headed --browser chrome",
+    "cy:all-headless": "cypress run",
+    "cy:all-headed-chrome-pds-site": "cypress run --headed --browser chrome --env site='pds' TAGS='@content' --spec 'cypress/e2e/features/pds-site/**.feature'",
+    "cy:all-headed-chrome-smilegen-site": "cypress run --headed --browser chrome --env site='smilegen' TAGS='@content' --spec 'cypress/e2e/features/smilegen-site/**/*.feature'",
+    "cy:all-headed-chrome-local-site-md": "cypress run --headed --browser chrome --env site='smilegen' TAGS='@demo' --spec 'cypress/e2e/features/local-site-md/**/*.feature'",
+    "cy:all-headed-chrome-local-site-gp": "cypress run --headed --browser chrome --env site='smilegen' TAGS='@demo' --spec 'cypress/e2e/features/local-site-gp/**/*.feature'",
+    "cy:all-headed-chrome-local-site-kd": "cypress run --headed --browser chrome --env site='smilegen' TAGS='@demo' --spec 'cypress/e2e/features/local-site-kd/**/*.feature'",
+    "cy:all-headed-edge": "cypress run --headed --browser edge",
+    "cy:all-headed-firefox": "cypress run --headed --browser firefox",
+    "cy:percy": "percy exec -- cypress run --browser chrome --headed",
+    "cy:spec": "cypress run --headed --browser chrome --spec cypress/e2e/features/**.feature",
+    "cy:all-tests-record": "cypress run --record --key a8bf8610-13e5-4035-8665-1552c1decbcb",
+    "percy-cy-pds": "percy exec -- cypress run -b chrome --headed --spec cypress/e2e/features/pds-site/pds_visual.feature",
+    "percy-cy-smilegen": "percy exec -- cypress run -b chrome --headed --spec cypress/e2e/features/smilegen-site/smilegen_visual.feature",
+    "cy-browserstack": "browserstack-cypress run --spec **/*.feature --headed",
+    "cy:spec-chrome-qa": "cypress run --env TAGS='@now' testEnv=qa --headed --browser chrome --spec cypress/e2e/features/homePage.feature",
+    "cy:spec-chrome-prod": "cypress run --env testEnv=prod --headed --browser chrome --spec cypress/e2e/features/homePage.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.12.0",
+    "@percy/cli": "^1.25.0",
+    "@percy/cypress": "^3.1.2",
+    "@testing-library/cypress": "^9.0.0",
+    "@types/chai-string": "^1.4.2",
+    "cypress": "^12.17.4",
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.5.0",
+    "fs": "^0.0.1-security",
+    "install": "^0.13.0",
+    "multiple-cucumber-html-reporter": "^3.4.0",
+    "npm": "^9.7.1",
+    "path": "^0.12.7",
+    "playwright-webkit": "^1.29.1",
+    "prettier": "2.8.1",
+    "webpack": "^5.73.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions/**/**",    
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "dependencies": {
+    "chai-string": "^1.5.0",
+    "cypress-real-events": "^1.8.1",
+    "scroll-to-bottomjs": "^1.1.0"
+  }
+}
